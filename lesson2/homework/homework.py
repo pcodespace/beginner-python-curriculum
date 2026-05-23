@@ -35,4 +35,4 @@ print(f"In a week, you could do {user_pushups * 7} push-ups!")
 # Use a for loop to print the square of each number from 1 to 6.
 # (Example: 1*1=1, 2*2=4, etc.)
 for z in range(1,7):
-   print(f"z and z squared=",z, z*z)
+   print(f"{z} and {z} squared=",z, z*z)

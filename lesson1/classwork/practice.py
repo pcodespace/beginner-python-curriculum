@@ -20,7 +20,7 @@ print("My favorite animal is:",a)
 # Create two variables: one for your first name and one for your last name.
 # Print them on 2 separate lines.
 f="Parjanya"
-l="M"
+l="Pie"
 print("My first name is:",f)
 print("My last name is:",l)
 
