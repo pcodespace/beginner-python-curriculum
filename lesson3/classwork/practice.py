@@ -1,3 +1,4 @@
+import random
 # Problem 1
 # Ask the user to enter their height in centimeters.
 # Print "Tall" if the height is greater than 170, otherwise print "Short".
@@ -22,6 +23,15 @@ else:
 # Print "Fizz" if it is divisible by 3, "Buzz" if divisible by 5,
 # print "FizzBuzz" if divisible by both 3 and 5,
 # otherwise print the number itself.
+num=int(input("Enter a number: "))
+if (num%3 ==0 ^ num%5==0):
+    print("FizzBuzz")
+elif num % 3==0:
+    print("Fizz")
+elif num % 5==0:
+    print("Buzz")
+else:
+   print(" Number is not divisible by 3 or 5",num)
 
 
 
@@ -29,7 +39,11 @@ else:
 # Use the random module to generate a random number between 1 and 6 (inclusive).
 # If the number is greater than 4, print "High roll!",
 # otherwise print "Low roll!".
-
+num2=random.randint(1,6)
+if num2 >= 4:
+    print("High roll!")
+else:
+    print("Low roll!")    
 
 
 # Problem 5
@@ -41,3 +55,16 @@ else:
 #   60 to 69: "D"
 #   below 60: "F"
 # Use nested if or elif statements.
+grade=int(input("What is your test score?"))
+if grade == 100:
+    print("You got an A+.")
+elif grade >=90:
+    print("You got an A.")
+elif grade >=80:
+    print("You got a B.")
+elif grade >=70:
+    print("You got a C.")
+elif grade >=60:
+    print("You got a D.")
+else:
+    print("You failed your test.")

@@ -7,6 +7,8 @@ print("Vote check complete!")
 # if/else: choose one of two paths
 if age <18:
     print("You can't vote yet.")
+
+    
 temp = int(input("What is the temperature outside?"))
 if temp < 10:
     print("It's cold, wear a jacket.")   
