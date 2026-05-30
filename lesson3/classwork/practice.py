@@ -31,7 +31,7 @@ elif num % 3==0:
 elif num % 5==0:
     print("Buzz")
 else:
-   print(" Number is not divisible by 3 or 5",num)
+   print(f" Number is {num} not divisible by 3 or 5",num)
 
 
 
