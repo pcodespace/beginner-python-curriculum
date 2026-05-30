@@ -39,9 +39,9 @@ else:
 # Otherwise print "Number does not meet criteria".
 user_num3=int(input("Enter a postive integer:"))
 if user_num3 >10 and user_num3 %2==0:
-    print("Big even number.")
+    print("Big even number.",user_num3)
 else:
-    print("Number does not meet criteria.",)    
+    print("Number does'nt meet criteria of Big Even Number.",user_num3)    
 
 
 
