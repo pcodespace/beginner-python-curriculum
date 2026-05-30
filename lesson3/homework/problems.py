@@ -14,10 +14,10 @@ else:
 # Print "Weekend" if the day is "saturday" or "sunday",
 # else print "Weekday".
 user_str1=input(("Enter a day of the week."))
-if user_str1=={"monday", "tuesday", "wednesday", "thursday", "friday"}:
+if user_str1 in {"monday", "tuesday", "wednesday", "thursday", "friday"}:
     print("Weekday",user_str1)
 else:
-    if user_str1==("saturday", "sunday"):
+    if user_str1 in ("saturday", "sunday"):
         print("Weekend",user_str1)
     
 
