@@ -33,7 +33,7 @@ print("Lunch and water check complete")
 # If the number is NOT between 1 and 10 (inclusive), print "Out of range."
 # Otherwise, print "In range."
 user_num3=int(input("Enter a number.:"))
-if  user_num3==0 or user_num3==1 or user_num3==2 or user_num3==3 or user_num3==4 or user_num3==5 or user_num3==6 or user_num3==7 or user_num3==8 or user_num3==9 or user_num3==10:
+if  user_num3==1 or user_num3==2 or user_num3==3 or user_num3==4 or user_num3==5 or user_num3==6 or user_num3==7 or user_num3==8 or user_num3==9 or user_num3==10:
     print("In range,between [1-10]")
 else:
     print("Out of range.")

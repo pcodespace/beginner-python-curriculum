@@ -18,6 +18,7 @@ print("Operating systems after the reverse:",operating_systems)
 # Then sort them alphabetically and print the result.
 
 school_subject=["Math", "Social Studies", "ELA", "Science"]
+print("The list of subjects:",school_subject)
 print("The second subject:",school_subject[1])
 school_subject.sort()
 print("School subjects after the alphebetical sort:", school_subject)
@@ -32,7 +33,6 @@ length_error_codes=len(error_codes)
 print("Total number of error codes:",length_error_codes)
 index_codes=error_codes.index ("403")
 print("The index of 403 is:", index_codes)
-
 
 
 # Problem 4 
