@@ -3,11 +3,10 @@
 print("---------------------Problem 1-------------------")
 names = ["Liam", "Alex", "Sophie", "Alex", "Mia","Alex"]
 print(names)
-
 num_names = names.count("Alex")
 print("There are", num_names, "Alex.")
 
-#My count algorithm
+# My count algorithm
 counter_names=0
 for i in range(len(names)):
   item=names[i]
