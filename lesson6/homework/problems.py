@@ -57,12 +57,12 @@ print(counter, "scores equal to 100")
 # Problem 4
 # Search for the color "blue" in the list and print its index if it's found.
 print("---------------------Problem 4-------------------")
-colors = ["red", "green", "blue", "yellow"]
+colors = ["red", "green", "orange","black","blue", "yellow"]
 print(colors)
 for i in range (len(colors)):
     if colors[i] == "blue":
         found = True
-        index = i+1
+        index = i
         break
 
 if found == True:
