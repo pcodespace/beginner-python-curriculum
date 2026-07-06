@@ -47,5 +47,4 @@ show_book()
 # Write a function that takes one parameter num.
 # The function should return the value of num multiplied by 2.
 def multiply(num):
-    result = num * 2
-    return result
+    return num * 2

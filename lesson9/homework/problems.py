@@ -2,7 +2,6 @@
 # Use a while loop to print the word "Python" 4 times.
 
 
-
 # Problem 2
 # Use a while loop to print the even numbers from 2 to 12 (inclusive).
 
