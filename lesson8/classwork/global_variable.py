@@ -7,7 +7,7 @@ show_pet()
 
 def adopt_parrot():
     global pet  # Before changing a global variable inside a function, you need to do this.
-    pet = "parrot"
+    pet = "PARROT"
 
 adopt_parrot()
 show_pet()

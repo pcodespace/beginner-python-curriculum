@@ -41,7 +41,7 @@ show_fruit()
 print("---------------------Problem 4-----------------------------------")
 def make_full_name(first_name, last_name):
     return first_name + " " + last_name
-full_name = make_full_name("Benjamin", "Franklin")
+full_name = make_full_name("Mary", "Brooks")
 print(full_name)
 
 

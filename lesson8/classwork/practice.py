@@ -40,11 +40,14 @@ def modify_book():
     book = "Holes"
 
 modify_book()
+print("The modified book is:",show_book())
 show_book()
 
 
 # Problem 5
 # Write a function that takes one parameter num.
 # The function should return the value of num multiplied by 2.
+print("-----------------Problem 5------------")
+
 def multiply(num):
     return num * 2
