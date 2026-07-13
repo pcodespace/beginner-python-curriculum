@@ -50,7 +50,7 @@ while i5 < len(items):
 
 # Problem 6
 # Ask the user to enter a positive integer.
-# Use a while loop to reverse the digis of the number.
+# Use a while loop to reverse the digits of the number.
 # Print the reversed number.
 print("----------------------------------Problem 6--------------------------------------------------------")
 num = int(input("Enter your positive number: "))
